@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: IEX
-x-complete: 1
+x-complete: 0
 info:
-  title: IEX
-  description: the-iex-api-is-a-set-of-services-designed-for-developers-and-engineers--it-can-be-used-to-build-highquality-apps-and-services--were-always-working-to-improve-the-iex-api--please-check-back-for-enhancements-and-improvements-
+  title: IEX Trading API Previous
+  description: This returns previous day adjusted price data for a single stock, or
+    an object keyed by symbol of price data for the whole market.
   termsOfService: https://iextrading.com/api-terms/
   version: 1.0.0
 schemes:
@@ -35,3 +37,17 @@ paths:
       - Market Data
       - Quotes
       - Adjustments
+x-streamrank:
+  polling_total_time_average: "0.17"
+  polling_size_download_average: "193"
+  streaming_total_time_average: "0.1"
+  streaming_size_download_average: "96.55"
+  change_yes: "1"
+  change_no: "1786"
+  time_percentage: "40"
+  size_percentage: "50"
+  change_percentage: "0"
+  last_run: "2018-02-20"
+  days_run: "1"
+  minute_run: "0"
+---
